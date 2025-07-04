@@ -69,8 +69,7 @@ offline-rag/
 ✅ 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/offline-rag.git
-cd offline-rag
+git clone https://github.com/Shaan2522/multimodal-rag-system
 ```
 
 ✅ 2. Install Python Dependencies
@@ -79,7 +78,7 @@ pip install -r requirements.txt
 ```
 
 ✅ 3. Download Models Locally
-Download and place the following models into the ```models/``` folder:
+Download and place the following models into the `models/` folder:
 
 1. all-MiniLM-L6-v2
 
@@ -92,7 +91,7 @@ Important: All models can be used completely offline (no internet required).
 ### ⚙️ Preprocessing Pipeline
 
 
-![contour detection](assets/sample_images/image.png)
+![contour detection](assets/sample_images/pdf-image-processing.png)
 
 #### 📄 Step 1: PDF to Images
 ```bash
