@@ -36,17 +36,17 @@ It supports:
 ```bash
 offline-rag/
 ├── assets/
-│   ├── images/                      # Full-page rendered images (PDF → JPG)
+│   ├── images/                    # Full-page rendered images (PDF → JPG)
 │   │   └── <pdf_name>/page_X.jpg
-│   └── segmentedImages/            # Block images cropped from full pages
+│   └── segmentedImages/           # Block images cropped from full pages
 │       └── <pdf_name>/<page_number>/blocks/block_X.png
 │
-├── models/                          # Local huggingface models
+├── models/                        # Local huggingface models
 │   ├── all-MiniLM-L6-v2/
 │   ├── clip-vit-large-patch14/
 │   └── google-flan-t5-base/
 │
-├── vector_store/                   # FAISS indices and metadata
+├── vector_store/                  # FAISS indices and metadata
 │   ├── text_index.faiss
 │   ├── image_index.faiss
 │   ├── text_metadata.json
