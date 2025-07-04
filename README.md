@@ -32,7 +32,7 @@ It supports:
 🖥️ GUI Frontend: User-friendly interface using Python’s Tkinter.
 
 
-### 📂 Project Structure
+### 📂 Folder Structure
 ```bash
 offline-rag/
 ├── assets/
@@ -90,6 +90,10 @@ Download and place the following models into the ```models/``` folder:
 Important: All models can be used completely offline (no internet required).
 
 ### ⚙️ Preprocessing Pipeline
+
+Login Page: 
+
+![Screenshot](./public/images/loginPage.png)
 
 #### 📄 Step 1: PDF to Images
 ```bash
