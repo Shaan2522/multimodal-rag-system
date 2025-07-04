@@ -90,25 +90,26 @@ Download and place the following models into the ```models/``` folder:
 Important: All models can be used completely offline (no internet required).
 
 ### ⚙️ Preprocessing Pipeline
-📄 Step 1: PDF to Images
+
+#### 📄 Step 1: PDF to Images
 ```bash
 python scripts/pdf_to_images.py
 ```
 Converts every page of all PDFs into .jpg images at 200 DPI.
 
-🔍 Step 2: Text Extraction
+#### 🔍 Step 2: Text Extraction
 ```bash
 python scripts/extract_text.py
 ```
 Extracts per-page text using PyPDF2 (for scanned documents).
 
-🧩 Step 3: Visual Block Detection
+#### 🧩 Step 3: Visual Block Detection
 ```bash
 python scripts/detect_blocks.py
 ```
 Uses OpenCV to segment images into diagrams/tables/logos and stores block images.
 
-📊 Step 4: Embedding Generation
+#### 📊 Step 4: Embedding Generation
 ```bash
 python scripts/generate_embeddings.py
 ```
@@ -118,7 +119,7 @@ Creates embeddings for:
 
 2. Images + blocks (using CLIP)
 
-🧠 Step 5: Build FAISS Index
+#### 🧠 Step 5: Build FAISS Index
 ```bash
 python scripts/build_faiss_index.py
 ```
