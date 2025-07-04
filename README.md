@@ -91,9 +91,8 @@ Important: All models can be used completely offline (no internet required).
 
 ### ⚙️ Preprocessing Pipeline
 
-Login Page: 
 
-![Screenshot](./public/images/loginPage.png)
+![contour detection](assets/sample_images/image.png)
 
 #### 📄 Step 1: PDF to Images
 ```bash
