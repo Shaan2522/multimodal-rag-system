@@ -169,22 +169,35 @@ Functionality:
 ### ✅ Supported Inputs
 | Input Type | Description |
 |:------------:|:-------------:|
-| Text Only |	Search by query text (e.g., “what is BMS?”) |
+| Text Only |	Search and match by query text |
 | Image Only | Match similar pages using image |
 | Text + Image | Combined context from both modalities (image takes priority) |
 
-📌 Example Output
-```txt
-📌 Text matched to PDF: Battery_Specs_Brochure.pdf
+### 📌 Sample Queries and System Output
 
-📄 Matched Page Image(s):
-- D:/assets/images/Battery_Specs_Brochure/page_3.jpg
-- D:/assets/images/Battery_Specs_Brochure/page_4.jpg
-- D:/assets/images/Battery_Specs_Brochure/page_5.jpg
+#### 1. Text-only Input
+  - Input:
+    "What is a Battery Monitoring System?"
+  - Output:
+    
+      ![text Output](assets/sample_images/textOutput.jpg)
 
-🧠 Answer:
-The Battery Monitoring System consists of independent modules...
-```
+#### 2. Image-only Input
+  - Input:
+    
+    ![text Output](assets/sample_images/imgInput.jpg)
+  - Output:
+
+      ![text Output](assets/sample_images/imgOutput.png)
+
+#### 3. Text + Image Input
+  - Input:
+
+    ![text+image Input](assets/sample_images/textimgInput.png)
+  - Output:
+
+      ![text Output](assets/sample_images/textImgOutput.jpg)
+
 
 ### 🏁 Future Improvements
 1. OCR fallback for scanned text regions (Tesseract)
