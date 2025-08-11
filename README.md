@@ -198,10 +198,3 @@ Functionality:
 
       ![text Output](assets/sample_images/textImgOutput.jpg)
 
-
-### 🏁 Future Improvements
-1. OCR fallback for scanned text regions (Tesseract)
-
-2. Custom-trained object detection (YOLO for diagrams)
-
-3. Summarization on matched page text
